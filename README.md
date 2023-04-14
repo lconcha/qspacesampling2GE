@@ -30,6 +30,8 @@ Generate the `tensorXXX.dat` from the `samples.txt` file (here with an example o
 python qspacesampling2ge.py samples.txt tensorXXX.dat 3000 2000 1000
 ```
 
+You can add interspersed b=0 volumes using the `--N [int]` flag.
+
 Copy and rename the `tensorXXX.dat` to `/usr/g/bin/` (be careful to not erase previously existing tensor files) :
 
 ```bash
